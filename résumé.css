@@ -1,0 +1,194 @@
+/* First, remove ruinous defaults */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+a {
+	/*color: unset;*/
+	text-decoration: none;
+}
+
+/* Then, set good values */
+
+/* Font sizes first */
+
+:root * { font-size: 1.3vh; }
+
+#frontmatter > #name { font-size: 180%; }
+#frontmatter > * { font-size: 120%; }
+
+h2 { font-size: 90% !important; }
+
+.experience > h3 { font-size: 120%; }
+.experience > .daterange { font-size: 90%; }
+.experience > .commentary { font-size: 100%; }
+
+.footer > p { font-size: 100%; }
+
+/* Font families and details next */
+
+:root { font-family: serif; }
+#frontmatter { font-family: sans-serif; }
+
+h2 {
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+}
+
+#name {
+	font-weight: bold;
+	font-variant-caps: small-caps;
+	letter-spacing: 0.20vw;
+	/*
+	text-transform: uppercase;
+	letter-spacing: 0.35vw;
+	*/
+}
+
+/* Then layout and alignment */
+
+body {
+	max-width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+
+#frontmatter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2em;
+}
+
+#frontmatter > * {
+	line-height: 1.2;
+	margin: 0;
+}
+
+#email::before { content: '<'; }
+#email::after  { content: '>'; }
+
+ol#locations {
+	padding: unset;
+}
+
+ol#locations > li {
+	display: inline;
+}
+
+ol#locations > li + li::before {
+	content: ' → ';
+}
+
+h2 {
+	margin: unset;
+	width: 100%;
+	max-width: 60ch;
+	text-align: center;
+	margin-top: 2.5em;
+	margin-bottom: 0.2em;
+}
+
+h2::before, h2::after {
+	content: '';
+	display: inline-block;
+	/**
+	 * But since the inner text is different lengths,
+	 * they come out looking unbalanced. TODO: Fix this
+	 **/
+	width: 25%;
+	vertical-align: middle;
+	border-bottom: 1px solid;
+	margin: 0 0 0 0;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+h2::before { margin-left: -50%; }
+h2::after { margin-right: -50%; }
+
+#experiences {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.experience + .experience {
+	/*border: 1px black solid;*/
+	margin-top: 1.0em;
+}
+
+.experience {
+	max-width: 65ch;
+}
+
+.experience * {
+	margin: unset;
+}
+
+.experience > .daterange {
+	font-style: italic;
+}
+
+.experience > p.commentary {
+	margin-top: 0.3em;
+	hyphens: auto;
+	text-align: justify;
+}
+/*
+.experience > h3 {
+	float: left;
+}
+
+.experience > .daterange {
+	float: right;
+}
+
+.experience > p {
+	clear: both;
+}
+*/
+
+#skills {
+	max-width: 65ch;
+	hyphens: auto;
+	text-align: justify;
+}
+
+#skills > p {
+	margin-top: 0;
+}
+
+#skills > ul {
+	columns: 3;
+	list-style-type: none;
+}
+
+#skills > ul > li{
+}
+
+#footer {
+	margin-top: 10vh;
+	position: absolute;
+	bottom: 0;
+}
+
+* {
+	color: white;
+	background-color: black;
+}
+/*
+*/
+
+/* IDEA:
+ * Make all text(blocks) use up n*1 units to force grid
+ * Large text offset by gap
+ * Small text offset by large text
+ *
+ */
