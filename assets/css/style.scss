@@ -78,15 +78,10 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1;
 	margin-bottom: 8em;
 
+	width: 80%;
+
 	img {
 		max-width: 100%;
-	}
-	/* Make children 80% wide and centered but allow easy overrides */
-	/* There isn't really an elegant way to override the alternate: setting the width of the container */
-	> * {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
 	}
 }
 
