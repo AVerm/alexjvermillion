@@ -2,7 +2,7 @@
 title: My Portfolio
 ---
 
-# My Non- (Not Un-!) Professional Experience
+## My Non- (Not Un-!) Professional Experience
 
 If you're interested in what I've done for my jobs, my [formal
 résumé](/résumé) is a great place to check. My professional
