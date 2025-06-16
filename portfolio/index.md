@@ -119,18 +119,18 @@ Here is a website that a friend wrote a short story on (a
 tutorial included in an unrelated story is pictured for privacy
 reasons) with its default style:
 
-![/assets/images/ProjectLawful_Before.png]
+![Default style](/assets/images/ProjectLawful_Before.png)
 
 Here's my favored style, which I won a few converts to when I
 shared it on the platform's forums:
 
-![/assets/images/ProjectLawful_After.png]
+![My style](/assets/images/ProjectLawful_After.png)
 
 And here's my style-sheet only recreation of someone's website
 (the author of the website was fine with this) which parses
 stories and writes new HTML for them:
 
-![/assets/images/ProjectLawful_After.png]
+![My copycat style](/assets/images/ProjectLawful_After.png)
 
 As you can see, ~~there's no end to the amount of effort I'll put
 to procrastinate reading fictional stories that I chose to read~~
