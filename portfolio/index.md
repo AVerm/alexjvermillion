@@ -68,13 +68,13 @@ I encourage you to check out [my Shadertoy
 profile](https://www.shadertoy.com/user/tomcatfish) for a few
 more examples than what I display below.
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/tfGXWR?gui=true" allowfullscreen></iframe>
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/XfdSDX?gui=true&t=10&paused=false&muted=true" allowfullscreen></iframe>
 
 Above is a simple ray-marcher I built after I was intruiged by a
 video online about how to make repeating patterns in GLSL. I had
 to see it for myself.
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/XfdSDX?gui=true" allowfullscreen></iframe>
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/XfdSDX?gui=true&t=10&paused=false&muted=true" allowfullscreen></iframe>
 
 Above is another fragment shader, but one a bit dearer to my
 heart. This is an animation of a set of dots slurping up the
