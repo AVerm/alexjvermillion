@@ -130,7 +130,7 @@ And here's my style-sheet only recreation of someone's website
 (the author of the website was fine with this) which parses
 stories and writes new HTML for them:
 
-![My copycat style](/assets/images/ProjectLawful_After.png)
+![My copycat style](/assets/images/ProjectLawful_Akrolsmir.png)
 
 As you can see, ~~there's no end to the amount of effort I'll put
 to procrastinate reading fictional stories that I chose to read~~
