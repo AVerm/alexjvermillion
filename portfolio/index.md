@@ -32,10 +32,10 @@ I've got a personal website that I've enjoyed hacking on for a
 few years, but the only part of that site that I can in good
 conscience point you towards is [my implementation of an RSS feed
 that is a valid HTML document with a
-stylesheet](www.ajvermillion.com/feed.xml). I undertook this
-project to figure out how RSS feeds work and what exactly the
-deal is with XML, XHTML, XSLT, and the whole “XML pretending to
-be HTML” family.
+stylesheet](http://www.ajvermillion.com/feed.xml). I undertook
+this project to figure out how RSS feeds work and what exactly
+the deal is with XML, XHTML, XSLT, and the whole “XML pretending
+to be HTML” family.
 
 If you aren't me, that feed didn't look very nice to you, but
 you're in luck on the next web design project I've selected,
@@ -68,7 +68,7 @@ I encourage you to check out [my Shadertoy
 profile](https://www.shadertoy.com/user/tomcatfish) for a few
 more examples than what I display below.
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/XfdSDX?gui=true&t=10&paused=false&muted=true" allowfullscreen></iframe>
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/tfGXWR?gui=true&t=10&paused=false&muted=true" allowfullscreen></iframe>
 
 Above is a simple ray-marcher I built after I was intruiged by a
 video online about how to make repeating patterns in GLSL. I had
@@ -103,7 +103,7 @@ full courseloads.
 You can [play the
 game](https://capstone2021.missiontopsyche.org/psyche-driller/)
 online and also poke through [the official
-repository](https://github.com/AVerm/NASA-psyche-game).
+repository](https://github.com/MissionToPsyche-Nickel/2021_15E_Web-Based-Game).
 
 ## Userstyles
 
