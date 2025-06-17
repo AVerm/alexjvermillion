@@ -6,22 +6,16 @@ title: My Portfolio
 
 If you're interested in what I've done for my jobs, my [formal
 résumé](/résumé) is a great place to check. My professional
-projects come with upsides and downsides for a potential employer
-or partner: there's someone you can call to ask how I did, but on
-the other hand, you only get to learn how I did if you call and
-ask.
+projects come with upsides and downsides for someone looking to
+evaluate my work: there's a real company and a real person that
+knows how I did, but you can only access this information if you
+talk to them, which is onerous.
 
-Here I plan to fill in the blanks a bit better for you by
-presenting you with some projects that are publicly available.
-That said, this list is selected for being a web page you can
-scroll down, not for being comprehensive. If you're just looking
-for [my Github](https://github.com/AVerm/), this is not the page
-for that.
-
-Two of my favorite activities in my spare time are cooking and
-learning. Unfortunately (for you), I can't demonstrate my love
-for cooking over a screen. Fortunately (for me, I hope), I can
-demonstrate some of the subjects I've enjoyed engaging with.
+This page is for me to give you a better idea of my skills by
+shoing things that *I* have the right to release. If you just
+want to see [my Github](https://github.com/AVerm/), the option is
+there, but if you want to see me demonstrate my *breadth* a bit,
+this page is your go-to.
 
 Note: This page overrepresents projects that were already online
 or were easy to put online.
