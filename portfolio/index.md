@@ -2,7 +2,7 @@
 title: My Portfolio
 ---
 
-## My Non- (Not Un-!) Professional Experience
+## My Non-Professional Experience
 
 My [formal résumé](/résumé) gathers details about my degree and paid work experience.
 Since it is hard to evaluate my schoolwork and jobwork, publicly available projects are gathered here for your perusal.
