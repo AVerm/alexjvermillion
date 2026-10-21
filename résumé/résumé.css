@@ -136,10 +136,12 @@ h2::after { margin-right: -50%; }
 	font-style: italic;
 }
 
-.experience > p.commentary {
+.experience > *.commentary {
 	margin-top: 0.3em;
 	hyphens: auto;
 	text-align: justify;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 /*
 .experience > h3 {
@@ -154,6 +156,11 @@ h2::after { margin-right: -50%; }
 	clear: both;
 }
 */
+
+a.external::after {
+	content: "\2197\FE0E";
+	font-variant-emoji: text;
+}
 
 #skills {
 	max-width: 65ch;
