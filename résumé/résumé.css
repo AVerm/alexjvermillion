@@ -1,4 +1,6 @@
-/* First, remove ruinous defaults */
+/********************
+ * First, remove ruinous defaults
+ ********************/
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
@@ -9,9 +11,159 @@ a {
 	text-decoration: none;
 }
 
-/* Then, set good values */
+/********************
+ * Then, set good values
+ ********************/
 
-/* Font sizes first */
+/***
+ * Margins (top and bottom)
+ ***/
+
+body {
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 2.5em;
+	margin-bottom: 0.2em;
+}
+
+#frontmatter {
+	margin-top: 2em;
+}
+
+#frontmatter > * {
+	margin: 0;
+}
+
+.experience + .experience {
+	margin-top: 1.0em;
+}
+
+.experience * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.experience > *.commentary {
+	margin-top: 0.3em;
+}
+
+#skills > p {
+	margin-top: 0;
+}
+
+
+/***
+ * Structure
+ ***/
+
+body {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	width: 100%;
+	max-width: 60ch;
+}
+
+#experiences {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.experience {
+	max-width: 65ch;
+}
+
+.experience > *.commentary {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#skills {
+	max-width: 65ch;
+}
+
+/***
+ * Layout
+ ***/
+
+ body {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ }
+
+#frontmatter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+#experiences {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+/***
+ * Text
+ ***
+
+/* Typeface, style, and alignment */
+
+:root { font-family: serif; }
+
+h2 {
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+	text-align: center;
+}
+
+#frontmatter { font-family: sans-serif; }
+
+#frontmatter > * {
+	line-height: 1.2;
+}
+
+#name {
+	font-weight: bold;
+	font-variant-caps: small-caps;
+	letter-spacing: 0.20vw;
+	/*
+	text-transform: uppercase;
+	letter-spacing: 0.35vw;
+	*/
+}
+
+
+
+.experience > .daterange {
+	font-style: italic;
+}
+
+.experience > *.commentary {
+	hyphens: auto;
+	text-align: justify;
+}
+
+#skills {
+	hyphens: auto;
+	text-align: justify;
+}
+
+/* Sizes */
 
 :root * { font-size: 1.3vh; }
 
@@ -26,73 +178,15 @@ h2 { font-size: 90% !important; }
 
 .footer > p { font-size: 100%; }
 
-/* Font families and details next */
 
-:root { font-family: serif; }
-#frontmatter { font-family: sans-serif; }
-
-h2 {
-	font-family: sans-serif;
-	font-variant-caps: small-caps;
-}
-
-#name {
-	font-weight: bold;
-	font-variant-caps: small-caps;
-	letter-spacing: 0.20vw;
-	/*
-	text-transform: uppercase;
-	letter-spacing: 0.35vw;
-	*/
-}
-
-/* Then layout and alignment */
-
-body {
-	max-width: 90%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: auto;
-	margin-top: 4vh;
-	margin-bottom: 4vh;
-}
-
-#frontmatter {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 2em;
-}
-
-#frontmatter > * {
-	line-height: 1.2;
-	margin: 0;
-}
+/* Odd giblets */
 
 #email::before { content: '<'; }
 #email::after  { content: '>'; }
 
-ol#locations {
-	padding: unset;
-}
-
-ol#locations > li {
-	display: inline;
-}
-
-ol#locations > li + li::before {
-	content: ' → ';
-}
-
-h2 {
-	margin: unset;
-	width: 100%;
-	max-width: 60ch;
-	text-align: center;
-	margin-top: 2.5em;
-	margin-bottom: 0.2em;
-}
+ol#locations { padding: unset; }
+ol#locations > li { display: inline; }
+ol#locations > li + li::before { content: ' → '; }
 
 h2::before, h2::after {
 	content: '';
@@ -111,65 +205,9 @@ h2::before, h2::after {
 h2::before { margin-left: -50%; }
 h2::after { margin-right: -50%; }
 
-#experiences {
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	margin-left: 1em;
-	margin-right: 1em;
-}
-
-.experience + .experience {
-	/*border: 1px black solid;*/
-	margin-top: 1.0em;
-}
-
-.experience {
-	max-width: 65ch;
-}
-
-.experience * {
-	margin: unset;
-}
-
-.experience > .daterange {
-	font-style: italic;
-}
-
-.experience > *.commentary {
-	margin-top: 0.3em;
-	hyphens: auto;
-	text-align: justify;
-	margin-left: 1em;
-	margin-right: 1em;
-}
-/*
-.experience > h3 {
-	float: left;
-}
-
-.experience > .daterange {
-	float: right;
-}
-
-.experience > p {
-	clear: both;
-}
-*/
-
 a.external::after {
 	content: "\2197\FE0E";
 	font-variant-emoji: text;
-}
-
-#skills {
-	max-width: 65ch;
-	hyphens: auto;
-	text-align: justify;
-}
-
-#skills > p {
-	margin-top: 0;
 }
 
 #skills > ul {
@@ -177,21 +215,22 @@ a.external::after {
 	list-style-type: none;
 }
 
-#skills > ul > li{
-}
-
+/***
+ * Footer
+ ***/
 #footer {
 	margin-top: 10vh;
 	position: absolute;
 	bottom: 0;
 }
 
+/***
+ * Color
+ ***/
 * {
 	color: white;
 	background-color: black;
 }
-/*
-*/
 
 /* IDEA:
  * Make all text(blocks) use up n*1 units to force grid
