@@ -81,7 +81,7 @@ h2 {
 }
 
 .experience {
-	max-width: 65ch;
+	max-width: 85ch;
 }
 
 .experience > *.commentary {
@@ -90,7 +90,7 @@ h2 {
 }
 
 #skills {
-	max-width: 65ch;
+	max-width: 85ch;
 }
 
 /***
