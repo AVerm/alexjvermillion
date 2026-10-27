@@ -27,10 +27,8 @@ My favorite effect, even though it is not very remarkable, is the inverted trans
 ## Shadertoy Uploads
 
 I enjoy using GLSL
-<details>
-	<summary>&lsquo;fragment shaders&rsquo;</summary>
-	the 2-dimensional massively-parallel component of the rendering pipeline
-</details>
+&lsquo;fragment shaders&rsquo;
+(the 2-dimensional massively-parallel component of the rendering pipeline)
 to make demos.
 I present a few of them here to demonstrate my self-motivated learning capabilities.
 
@@ -46,15 +44,11 @@ A demonstration of distance metrics. Each dot emits an area over time, enclosing
 
 At [the link to the fragment shader](https://www.shadertoy.com/view/XfdSDX), you can edit the
 `distance_` function to switch between the default
-<details>
-	<summary>Euclidean distance</summary>
-	real world distance, where a diagonal meter is 1 meter long
-</details>
+Euclidean distance
+(real world distance, where a diagonal meter is 1 meter long)
  and 
-<details>
-	<summary>Manhattan &ldquo;taxi-cab&rdquo; distance</summary>
-	the typical digital pathfinding distance, where a meter at a 45° angle is 2 meters long, one horizontal meter and one vertical meter
-</details>.
+Manhattan &ldquo;taxi-cab&rdquo; distance
+(the typical digital pathfinding distance, where a meter at a 45° angle is 2 meters long, one horizontal meter and one vertical meter)
 You can also click to place a dot of your own.
 
 ## Psyche Driller
