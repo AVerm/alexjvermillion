@@ -19,21 +19,26 @@ I wrote this project largely directly off of RSS, XML, XHTML, and XSLT specifica
 That feed may not be very good looking, but [my wedding website](https://1inavere6.com/) is much nicer.
 It was originally mocked up by my wife in LibreOffice Impress (Open Source Powerpoint), and I worked to implement all the features she wanted.
 
-In order to implement everything she asked for, I learned aabout Jekyll, Github Pages, and several weird CSS hacks.
+In order to implement everything she asked for, I learned about Jekyll, Github Pages, and several weird CSS hacks.
 
 Like this website, I left [the Github-hosted repository](https://github.com/AVerm/1inavere6) public.
 My favorite effect, even though it is not very remarkable, is the inverted transparency on the menu buttons (reused on this website to lesser effect).
 
 ## Shadertoy Uploads
 
-I enjoy using GLSL <details><summary>&lsquo;fragment shaders&rsquo;</summary>the 2-dimensional massively-parallel component of the rendering pipline</details> to make demos.
+I enjoy using GLSL
+<details>
+	<summary>&lsquo;fragment shaders&rsquo;</summary>
+	the 2-dimensional massively-parallel component of the rendering pipeline
+</details>
+to make demos.
 I present a few of them here to demonstrate my self-motivated learning capabilities.
 
 [My Shadertoy profile](https://www.shadertoy.com/user/tomcatfish) has more examples than the below.
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/tfGXWR?gui=true&t=10&paused=false&muted=true" allowfullscreen></iframe>
 
-A simple ray marcher I built while intruiged by ray marching and coordinate repetition.
+A simple ray marcher I built while intrigued by ray marching and coordinate repetition.
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/XfdSDX?gui=true&t=10&paused=false&muted=true" allowfullscreen></iframe>
 
@@ -54,9 +59,9 @@ You can also click to place a dot of your own.
 
 ## Psyche Driller
 
-This was my Computer Science B.Sc. capstone, and so is covered is my résumé, but I wanted to add a link here for completeness.
+This was my Computer Science B.Sc. capstone, and so is covered in my résumé, but I wanted to add a link here for completeness.
 
-We were split into groups and had to learn how to use Godot while making our game and taking criques from the NASA rep (who nixed multiple names for our game in a row), all while balancing full courseloads.
+We were split into groups and had to learn how to use Godot while making our game and taking critiques from the NASA rep (who nixed multiple names for our game in a row), all while balancing full courseloads.
 
 You can [play the game](https://capstone2021.missiontopsyche.org/psyche-driller/) online and used to be able to look through [the official repository](https://github.com/MissionToPsyche-Nickel/2021_15E_Web-Based-Game), but it has been privated.
 I have a fork available if you are interested (but Github doesn't allow me to make it public).
